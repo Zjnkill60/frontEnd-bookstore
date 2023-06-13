@@ -1,0 +1,96 @@
+.header-homepage {
+    align-items: center;
+    padding: 20px;
+    background-color: #eeeeee;
+
+    .title-header {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        .icon-header {
+            font-size: 40px;
+            color: #1677ff;
+        }
+
+        span {
+            font-size: 25px;
+            color: #1677ff;
+            margin-left: 15px;
+            font-weight: 600;
+        }
+    }
+
+    .cart-header {
+        margin-left: 20px;
+        cursor: pointer;
+       
+    }
+
+    .dropdown {
+        margin-left: auto;
+        margin-right: 20;
+    }
+
+    .btn-header {
+        margin-left: auto;
+    }
+
+    .menu-header {
+        margin-left: auto;
+    }
+}
+
+.item-drawer {
+    margin: 20px 0;
+    display:  flex;
+    align-items: center;
+}
+
+.item-drawer:hover {
+    opacity: 0.8;
+    color: #1677ff;
+}
+.icon-drawer {
+    font-size: 30px !important;
+    color: #1677ff;
+  
+}
+
+.option-features-drawer {
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+
+.log-out {
+    color: red !important;
+}
+
+.contact-drawer {
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.title-drawer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-cart:hover {
+    opacity: 0.8;
+    
+}
+@media (min-width: 0px) and (max-width: 870.98px) { 
+    .hide-header {
+        display: none;
+    }
+ }
+
+
+@media (min-width: 0px) and (max-width: 578.98px) { 
+    .hide-xxs {
+        display: none !important;
+    }
+ }

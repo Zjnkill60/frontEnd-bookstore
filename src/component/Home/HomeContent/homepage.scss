@@ -1,0 +1,289 @@
+.homepage-container {
+    min-height: 100vh;
+    padding: 10px 40px;
+}
+
+
+
+.card-item {
+    width: 330px;
+    position: relative;
+    height: 100%;
+}
+
+.img-item {
+    height: 200px;
+    object-fit: cover;
+}
+
+.paganigate {
+    margin: 30px 0 100px;
+    position: relative;
+}
+
+.panaginate-item {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.title-item {
+    margin-bottom: 70px;
+    font-size: 16px;
+    color: #444444;
+}
+
+.sub-rating {
+    
+    display: flex;
+    align-items: center;
+
+    .sub-sold {
+        color: #aaaaaa;
+        margin-top: 3px;
+      
+    }
+}
+.sub-item {
+   
+    position: absolute;
+    bottom: 10px;
+
+    .sub-price {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #1677ff;
+    }
+}
+
+//sidebar
+.icon-sidebar {
+    color: #1677ff;
+}
+
+.text-sidebar {
+    font-weight: 600;
+}
+
+
+@media (min-width: 0px) and (max-width: 568.98px) { 
+   .md-width {
+     width: 100% !important;
+   }
+
+   .md-height {
+     height: 180px !important;
+   }
+
+   .md-padding {
+    padding: 10px 2px !important;
+   }
+
+   .md-mid {
+    margin: 0 auto !important;
+   }
+
+   .md-left {
+    margin-left: 10px !important;
+   }
+
+   .md-col {
+    width: 50%;
+   }
+
+   .title-item {
+    margin-bottom: 40px !important;
+   }
+
+   .sub-item {
+    bottom: 2px !important;
+   }
+
+    .md-font-rating {
+    font-size: 7px !important;
+    }
+
+    .md-font-sold {
+    font-size: 8px !important;
+        }
+
+
+    .md-font-title {
+        font-size: 11px !important;
+    }
+
+    .md-font-price {
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+
+    .ant-card-body {
+        padding: 10px !important;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768.98px) { 
+    .md-width {
+        width: 100% !important;
+      }
+   
+      .md-height {
+        height: 220px !important;
+      }
+   
+      .md-padding {
+       padding: 10px 2px !important;
+      }
+   
+      .md-mid {
+       margin: 0 auto !important;
+      }
+   
+      .md-left {
+       margin-left: 10px !important;
+      }
+   
+      .md-col {
+       width: 50%;
+      }
+
+    .title-item {
+        margin-bottom: 50px !important;
+       }
+    
+       .sub-item {
+
+        bottom: 2px !important;
+       }
+    
+        .md-font-rating {
+        font-size: 10px !important;
+        }
+    
+        .md-font-sold {
+        font-size: 10px !important;
+            }
+    
+    
+        .md-font-title {
+            font-size: 14px !important;
+        }
+    
+        .md-font-price {
+            font-size: 15px !important;
+            font-weight: 500 !important;
+        }
+    
+        .ant-card-body {
+            padding: 10px !important;
+        }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { 
+    .md-width {
+      width: 100% !important;
+    }
+ 
+    .md-height {
+      height: 250px !important;
+    }
+ 
+    .md-padding {
+        padding: 10px 10px !important;
+    }
+    
+    .md-mid {
+     margin: 0 auto !important;
+    }
+    .md-left {
+        margin-left: 10px !important;
+       }
+    .md-col {
+     width: 33%;
+    }
+
+    .md-font-rating {
+        font-size: 14px !important;
+    }
+ }
+
+ @media (min-width: 1201px) and (max-width: 1600px) { 
+    .md-width {
+      width: 100% !important;
+    }
+ 
+    .md-height {
+      height: 230px !important;
+    }
+ 
+        
+    .md-mid {
+     margin: 0 auto !important;
+    }
+    .md-left {
+        margin-left: 10px !important;
+       }
+ 
+    .md-col {
+     width: 25%;
+    }
+
+    .title-item {
+        margin-bottom: 55px !important;
+       }
+
+    .md-font-rating {
+        font-size: 14px !important;
+        }
+    
+        .md-font-sold {
+        font-size: 14px !important;
+            }
+    
+    
+        .md-font-title {
+            font-size: 14px !important;
+        }
+    
+        .md-font-price {
+            font-size: 20px !important;
+            font-weight: 500 !important;
+        }
+ }
+
+ @media (min-width: 1601px) and (max-width: 2000px) { 
+    .md-width {
+      width: 100% !important;
+    }
+ 
+    .md-height {
+      height: 300px !important;
+    }
+
+    .md-left {
+        margin-left: 10px !important;
+       }
+ 
+        
+    .md-mid {
+     margin: 0 auto !important;
+    }
+ 
+    .md-col {
+     width: 25%;
+    }
+ }
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

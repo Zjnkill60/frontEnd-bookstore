@@ -1,0 +1,25 @@
+.footer-container {
+    margin-top: auto;
+    border-top: 1px solid #eeeeee;
+    padding: 50px;
+    background-color: #eeeeee;
+}
+
+@media (min-width: 0px) and (max-width: 578.98px) { 
+   .padding-small-xs {
+    padding: 10px !important;
+   }
+
+   .font-small-xs {
+    font-size: 25px !important;
+    margin-bottom: 30px !important;
+   }
+ }
+
+ @media (min-width: 1200px) { 
+   .xl-title {
+    text-align: start !important;
+    margin-left: 15px;
+    color: #1677ff !important;
+   }
+  }
