@@ -303,7 +303,7 @@ const DetailBook = () => {
                           <div onClick={handleAddCart} style={{fontSize : 11 , color :'#666666'}}>Add Cart</div>
                  </Button>
                  </Col>
-                 <Col span={11}>
+                 <Col span={14}>
                  <Button onClick={handleBuyNow} className="button-tool" style={{backgroundColor : '#d0011b' , color : '#fff'}}>Mua ngay </Button>
                  </Col>
          </Row>
